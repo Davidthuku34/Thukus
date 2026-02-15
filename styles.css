@@ -439,7 +439,7 @@ section {
 .skill-category {
     background: white;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: var(--shadow-md);
 }
 
@@ -452,7 +452,7 @@ section {
 
 .skill-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
 }
 
@@ -462,7 +462,7 @@ section {
     gap: 0.5rem;
     padding: 0.75rem;
     background: var(--bg-light);
-    border-radius: 10px;
+    border-radius: 20px;
     transition: var(--transition);
 }
 
@@ -479,6 +479,7 @@ section {
 .skill-item:hover i {
     color: white;
 }
+
 .skill-item span {
     font-size: 0.9rem;
     font-weight: 500;
