@@ -479,6 +479,15 @@ section {
 .skill-item:hover i {
     color: white;
 }
+.skill-item span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0;
+}
 
 /* Contact Section */
 .contact-content {
